@@ -1,0 +1,35 @@
+.city-weather-card {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+    background-color: burlywood;
+    
+    
+    .city-item {
+        display: inherit;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+
+        .weather-icon {
+            width: 3rem;
+            aspect-ratio: 1;
+        }
+
+        .location {
+            font-size: 1.3rem;
+            color: #fff;
+        }
+
+        .temp-range {
+            font-size: 0.8rem;
+            color: #fff;
+        }
+
+        
+    }
+}

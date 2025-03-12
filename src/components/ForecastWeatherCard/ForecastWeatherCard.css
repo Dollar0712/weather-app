@@ -1,0 +1,27 @@
+.forecast-weather-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: burlywood;
+  transition: transform 0.2s ease-in-out;
+  gap: 1rem;
+}
+.forecast-weather-card .forecast-day {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forecast-weather-card .forecast-day .date-weekday {
+  font-size: 1.2rem;
+}
+.forecast-weather-card .forecast-day .date-day-month {
+  font-size: 0.8rem;
+}
+.forecast-weather-card .forecast-day .weather-icon {
+  width: 5rem;
+  aspect-ratio: 1;
+}
+.forecast-weather-card .forecast-day .temp-range {
+  font-size: 0.8rem;
+}/*# sourceMappingURL=ForecastWeatherCard.css.map */

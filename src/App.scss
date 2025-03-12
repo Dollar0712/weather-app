@@ -1,0 +1,62 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.App {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    background-image: linear-gradient(to right bottom, #7168dd, #6a5fe3, #6456e9, #5d4cef, #5641f4);
+}
+
+html {
+    font-size: 100%;
+}
