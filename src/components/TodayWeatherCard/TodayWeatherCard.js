@@ -26,7 +26,7 @@ const TodayWeatherCard = ({ weatherData }) => {
     }
 
     const { timeStamp, location, temp, minTemp, maxTemp, iconCode, icon, humidity, windSpeed, pm2_5, feelsLike, tz_id} = weatherData;
-    const {year, month, day, hour, minute, weekday} = convertEpochToDateTime(tz_id, timeStamp);
+    const {month, day, hour, minute, weekday} = convertEpochToDateTime(tz_id, timeStamp);
 
     const getIconByIconCode = (iconCode) => {
         switch (iconCode) {
